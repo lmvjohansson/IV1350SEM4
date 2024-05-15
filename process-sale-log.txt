@@ -1,0 +1,19 @@
+15 May 2024, 14:10:26, Exception was thrown: Call to external inventory system failed.
+se.kth.iv1350.linnea.seminar3.integration.ExternalInventorySystemException: Call to external inventory system failed.
+	at se.kth.iv1350.linnea.seminar3.integration.ExternalInventorySystem.findItem(ExternalInventorySystem.java:41)
+	at se.kth.iv1350.linnea.seminar3.controller.Controller.enterIdentifier(Controller.java:74)
+	at se.kth.iv1350.linnea.seminar3.view.View.runFakeExecution(View.java:93)
+	at se.kth.iv1350.linnea.seminar3.startup.Main.main(Main.java:24)
+
+
+15 May 2024, 14:10:26, Exception was thrown: Could not enter identifier.
+se.kth.iv1350.linnea.seminar3.controller.OperationFailedException: Could not enter identifier.
+	at se.kth.iv1350.linnea.seminar3.controller.Controller.enterIdentifier(Controller.java:79)
+	at se.kth.iv1350.linnea.seminar3.view.View.runFakeExecution(View.java:93)
+	at se.kth.iv1350.linnea.seminar3.startup.Main.main(Main.java:24)
+Caused by: se.kth.iv1350.linnea.seminar3.integration.ExternalInventorySystemException: Call to external inventory system failed.
+	at se.kth.iv1350.linnea.seminar3.integration.ExternalInventorySystem.findItem(ExternalInventorySystem.java:41)
+	at se.kth.iv1350.linnea.seminar3.controller.Controller.enterIdentifier(Controller.java:74)
+	... 2 more
+
+
